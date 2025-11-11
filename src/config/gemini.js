@@ -14,7 +14,7 @@ const apiKey = "AIzaSyAx6Q9MFJfRX0yIKcZXXKwUZoF2q2OM_a4";
 const genAI = new GoogleGenerativeAI(apiKey);
 
 const model = genAI.getGenerativeModel({
-  model: "gemini-1.5-flash",
+  model: "gemini-2.0-flash",
 });
 
 const generationConfig = {

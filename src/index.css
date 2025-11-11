@@ -5,6 +5,7 @@
   box-sizing: border-box;
   font-family: Outfit;
 }
+
 #root{
   display:flex;
   min-height:100vh;
